@@ -35,6 +35,7 @@ public class SignupEventListener {
 		mailMessage.setSubject(subject);
 		mailMessage.setText(message + "\n" + confirmationUrl);
 		javaMailSender.send(mailMessage);
+
 	}
 
 }
